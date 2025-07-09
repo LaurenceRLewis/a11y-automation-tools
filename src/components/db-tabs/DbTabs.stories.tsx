@@ -3,7 +3,7 @@ import DbTabs, { DbTabsProps } from "./DbTabs";
 import { TabsDescription } from "./DbTabs.description";
 
 const meta: Meta<DbTabsProps> = {
-  title: "Deliberately broken for testing/Tabs",
+  title: "Can be Deliberately broken for testing/Tabs",
   component: DbTabs,
   tags: ["autodocs"],
   parameters: {

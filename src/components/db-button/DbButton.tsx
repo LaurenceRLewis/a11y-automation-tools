@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./ModularButton.css";
+import "./DbButton.css";
 
 export type ButtonTypes = Partial<Record<"button" | "submit" | "reset", boolean>>;
 

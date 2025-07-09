@@ -3,7 +3,7 @@ import DbLists from "./DbLists";
 import { ListDescription } from "./DbLists.description";
 
 const meta: Meta<typeof DbLists> = {
-  title: "Deliberately broken for testing/Lists",
+  title: "Can be Deliberately broken for testing/Lists",
   component: DbLists,
   tags: ["autodocs"],
   parameters: {

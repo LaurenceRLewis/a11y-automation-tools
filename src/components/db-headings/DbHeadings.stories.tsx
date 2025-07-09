@@ -3,7 +3,7 @@ import DbHeadings, { HeadingScenario } from "./DbHeadings";
 import { HeadingsDescription } from "./DbHeadings.description";
 
 const meta: Meta<typeof DbHeadings> = {
-  title: "Deliberately broken for testing/Headings",
+  title: "Can be Deliberately broken for testing/Headings",
   component: DbHeadings,
   tags: ["autodocs"],
   parameters: {

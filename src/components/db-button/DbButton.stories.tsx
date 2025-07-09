@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react-webpack5";
-import ModularButton from "./ModularButton";
+import ModularButton from "./DbButton";
 
 const meta: Meta<typeof ModularButton> = {
-  title: "Modular Components/Modular Button",
+  title: "Can be Deliberately broken for testing/Button",
   component: ModularButton,
   tags: ["autodocs"],
   parameters: {
