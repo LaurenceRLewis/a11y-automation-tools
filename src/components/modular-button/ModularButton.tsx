@@ -24,7 +24,7 @@ const ModularButton: React.FC<ModularButtonProps> = ({
     }
   }, [buttonTypes]);
 
-  return <button type={resolvedType}>{label}</button>;
+  return <button type={resolvedType} className="modular-button">{label}</button>;
 };
 
 export default ModularButton;

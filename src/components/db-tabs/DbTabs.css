@@ -1,0 +1,85 @@
+.tabContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Tabs view */
+.tabList {
+  display: flex;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.tab {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 3px solid transparent;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(209, 203, 219, 1);
+}
+
+.tab[aria-selected="true"] {
+  font-weight: bold;
+  border-bottom-color: rgb(156, 39, 176);
+  background-color: rgb(156, 39, 176);
+  color: rgb(255, 255, 255);
+}
+
+.tab:focus-visible {
+  border-bottom: 3px solid var(--tab-focus-outline);
+}
+
+.tab[aria-selected="true"]:focus-visible {
+  border-bottom: 3px solid var(--tab-selected-focus-outline);
+}
+
+.tabPanel {
+  padding: 15px;
+  border-right: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  border-left: 1px solid rgb(204, 204, 204);
+  border-top: none;
+}
+
+.tabPanel[hidden] {
+  display: none;
+}
+
+.tabPanel h3 {
+  margin-top: 0;
+}
+
+/* Accordion (mobile) view */
+.accordionButton {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--tab-border);
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.accordionButton + .accordionTabPanel {
+  border-top: none;
+}
+
+.accordionButton:focus-visible {
+  border-color: var(--tab-focus-outline);
+}
+
+.accordionButton[aria-expanded="true"] {
+  font-weight: bold;
+  background-color: var(--tab-selected-bg);
+}
+
+.accordionButton[aria-expanded="true"]:focus-visible {
+  border-color: var(--tab-selected-focus-outline);
+}

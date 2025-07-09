@@ -1,4 +1,4 @@
-button {
+button.modular-button {
   color: #fff;
   background-color: #5941a9;
   border: none;
@@ -7,15 +7,15 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
+button.modular-button:hover {
   background-color: #7b61c4;
 }
 
-button:focus {
+button.modular-button:focus {
   outline: none;
 }
 
-button:focus-visible {
+button.modular-button:focus-visible {
   outline: none;
   box-shadow: 0 0 0 3px #fff, 0 0 0 5px #a886e5;
 }

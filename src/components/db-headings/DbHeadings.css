@@ -1,0 +1,22 @@
+.db-headings {
+  display: block;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.fake-h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1.5rem 0 1rem;
+}
+
+.fake-h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.25rem 0 1rem;
+}

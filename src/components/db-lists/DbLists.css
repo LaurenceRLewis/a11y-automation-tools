@@ -1,0 +1,18 @@
+.list-container,
+ul,
+ol,
+div[role="list"] {
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+li,
+.list-container > div {
+  margin-bottom: 0.5rem;
+}
+
+:host {
+  display: block;
+  font-family: sans-serif;
+  padding: 1rem;
+}
