@@ -163,3 +163,10 @@ yarn-error.log*
 
 *storybook.log
 storybook-static
+
+# Local Netlify folder
+.netlify
+
+# Ignore Visual Studio Code settings
+.vscode/*
+.gitignore
